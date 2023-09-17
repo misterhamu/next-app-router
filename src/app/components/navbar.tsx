@@ -56,6 +56,13 @@ export default function Navbar({}: Props) {
               Home
             </Link>
             <Link
+              href={"/hooks"}
+              className={`${path === "/hooks" ? " text-orange-300":"text-white"} block py-2 pl-3 pr-4 text-gray-900 md:hover:text-orange-600 `}
+
+            >
+              Hooks
+            </Link>
+            <Link
               href={"/products"}
               className={`${path === "/products" ? " text-orange-300":"text-white"} block py-2 pl-3 pr-4 text-gray-900 md:hover:text-orange-600 `}
 
